@@ -97,31 +97,25 @@ export default class GiftedListView extends Component{
         this._setPage(1);
         this._setRows([]);
 
-        this.state = this.getInitialState();
-    }
-
-    getInitialState(){
-        var ds = null;
-        if (this.props.withSections === true) {
-            ds = new ListView.DataSource({
+        let dataSource = null;
+        if(this.props.withSections === true){
+            let ds = new ListView.DataSource({
                 rowHasChanged: this.props.rowHasChanged?this.props.rowHasChanged:(row1, row2) => row1 !== row2,
                 sectionHeaderHasChanged: (section1, section2) => section1 !== section2,
             });
-            return {
-                dataSource: ds.cloneWithRowsAndSections(this._getRows()),
-                isRefreshing: false,
-                paginationStatus: 'firstLoad',
-            };
-        } else {
-            ds = new ListView.DataSource({
+            dataSource = ds.cloneWithRowsAndSections(this._getRows());
+        }else{
+            let ds = new ListView.DataSource({
                 rowHasChanged: this.props.rowHasChanged?this.props.rowHasChanged:(row1, row2) => row1 !== row2,
             });
-            return {
-                dataSource: ds.cloneWithRows(this._getRows()),
-                isRefreshing: false,
-                paginationStatus: 'firstLoad',
-            };
+            dataSource = ds.cloneWithRowsAndSections(this._getRows());
         }
+
+        this.state = {
+            dataSource: dataSource,
+            isRefreshing: false,
+            paginationStatus: 'firstLoad',
+        };
     }
 
     _setPage(page) { this._page = page; }
