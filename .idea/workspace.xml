@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c5f56f4-ca03-4c7d-8b7b-45125f508d7d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GiftedListView.js" beforeDir="false" afterPath="$PROJECT_DIR$/GiftedListView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/.flowconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/.watchmanconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/react.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/java/com/giftedlistviewexample/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/example_advanced.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/example_simple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/index.android.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/index.ios.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample.xcodeproj/xcshareddata/xcschemes/GiftedListViewExample.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample/Base.lproj/LaunchScreen.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExample/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExampleTests/GiftedListViewExampleTests.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/ios/GiftedListViewExampleTests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GiftedListViewExample/package.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,8 +19,8 @@
       <file leaf-file-name="GiftedListView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GiftedListView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="165">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -152,12 +115,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526546893297</updated>
-      <workItem from="1526546894548" duration="1057000" />
+      <workItem from="1526546894548" duration="1528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1057000" />
+    <option name="totallyTimeSpent" value="1528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1401" height="877" extended-state="0" />
@@ -193,8 +156,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GiftedListView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="165">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>

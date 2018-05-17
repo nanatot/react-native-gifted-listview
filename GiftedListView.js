@@ -9,6 +9,7 @@ import {
     Text,
     RefreshControl,
     ActivityIndicator,
+    StyleSheet
 } from 'react-native';
 
 import PropTypes from 'prop-types';
