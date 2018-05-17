@@ -347,14 +347,14 @@ export default class GiftedListView extends Component{
                 dataSource={this.state.dataSource}
                 renderRow={this.props.rowView}
                 renderSectionHeader={this.props.sectionHeaderView}
-                renderHeader={this.headerView}
-                renderFooter={this._renderPaginationView}
-                renderSeparator={this.renderSeparator}
+                renderHeader={this.headerView.bind(this)}
+                renderFooter={this._renderPaginationView.bind(this)}
+                renderSeparator={this.renderSeparator.bind(this)}
 
                 automaticallyAdjustContentInsets={false}
                 scrollEnabled={this.props.scrollEnabled}
                 canCancelContentTouches={true}
-                refreshControl={this.props.refreshable === true ? this.renderRefreshControl() : null}
+                refreshControl={this.props.refreshable === true ? this.renderRefreshControl.bind(this) : null}
 
                 {...this.props}
 
