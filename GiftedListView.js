@@ -309,7 +309,7 @@ export default class GiftedListView extends Component{
         }
     }
 
-    _renderPaginationView() {
+    _renderPaginationView = ()=> {
         if ((this.state.paginationStatus === 'fetching' && this.props.pagination === true) || (this.state.paginationStatus === 'firstLoad' && this.props.firstLoader === true)) {
             return this.paginationFetchingView();
         } else if (this.state.paginationStatus === 'waiting' && this.props.pagination === true && Object.values(this._getRows()).length > 0) {
@@ -321,7 +321,7 @@ export default class GiftedListView extends Component{
         } else {
             return null;
         }
-    }
+    };
 
     renderRefreshControl() {
         if (this.props.renderRefreshControl) {
@@ -348,7 +348,7 @@ export default class GiftedListView extends Component{
                 renderRow={this.props.rowView}
                 renderSectionHeader={this.props.sectionHeaderView}
                 renderHeader={this.headerView.bind(this)}
-                renderFooter={this._renderPaginationView.bind(this)}
+                renderFooter={this._renderPaginationView}
                 renderSeparator={this.renderSeparator.bind(this)}
 
                 automaticallyAdjustContentInsets={false}
